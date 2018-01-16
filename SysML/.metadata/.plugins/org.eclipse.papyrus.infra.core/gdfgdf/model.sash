@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<di:SashWindowsMngr xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:di="http://www.eclipse.org/papyrus/0.7.0/sashdi">
+  <sashModel currentSelection="//@sashModel/@windows.0/@children.0" restoreActivePage="true">
+    <windows>
+      <children xsi:type="di:TabFolder">
+        <children>
+          <emfPageIdentifier href="platform:/resource/gdfgdf/model.notation#_LzNzsPrCEeenCKdSVeczSw"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="platform:/resource/gdfgdf/model.notation#_LzQ3APrCEeenCKdSVeczSw"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="platform:/resource/gdfgdf/model.notation#_LzeSYPrCEeenCKdSVeczSw"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="platform:/resource/gdfgdf/model.notation#_LzmOMPrCEeenCKdSVeczSw"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="platform:/resource/gdfgdf/model.notation#_Lzv_MPrCEeenCKdSVeczSw"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="platform:/resource/gdfgdf/model.notation#_LzzCgPrCEeenCKdSVeczSw"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="platform:/resource/gdfgdf/model.notation#_Lz37APrCEeenCKdSVeczSw"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="platform:/resource/gdfgdf/model.notation#_Lz7lYPrCEeenCKdSVeczSw"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="platform:/resource/gdfgdf/model.notation#_L0Ad4PrCEeenCKdSVeczSw"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="platform:/resource/gdfgdf/model.notation#_L0aGgPrCEeenCKdSVeczSw"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="platform:/resource/gdfgdf/model.notation#_L0g0MPrCEeenCKdSVeczSw"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="platform:/resource/gdfgdf/model.notation#_L0m60PrCEeenCKdSVeczSw"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="platform:/resource/gdfgdf/model.notation#_L0qlMPrCEeenCKdSVeczSw"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="platform:/resource/gdfgdf/model.notation#_L0xS4PrCEeenCKdSVeczSw"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="platform:/resource/gdfgdf/model.notation#_L009QPrCEeenCKdSVeczSw"/>
+        </children>
+        <children>
+          <emfPageIdentifier href="platform:/resource/gdfgdf/model.notation#_L04AkPrCEeenCKdSVeczSw"/>
+        </children>
+      </children>
+    </windows>
+  </sashModel>
+</di:SashWindowsMngr>
