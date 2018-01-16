@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ">
+  <uml:Model xmi:id="_XjdEYPq-Eee0wspZWcu_sg" name="RootElement">
+    <packagedElement xmi:type="uml:Class" xmi:id="_Zso-cPq-Eee0wspZWcu_sg" name="Door">
+      <generalization xmi:type="uml:Generalization" xmi:id="_DQuG0PrFEee0wspZWcu_sg" general="_WKr90PrCEee0wspZWcu_sg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_kvKl0PrAEee0wspZWcu_sg" name="Attribute1">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_nnA8sPrAEee0wspZWcu_sg">
+          <body>- </body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_rJZeUPrAEee0wspZWcu_sg" name="Attribute2">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_x7TP8PrAEee0wspZWcu_sg">
+          <body>- bool lock = true</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_JupJUPrBEee0wspZWcu_sg" name="Attribute3">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_P5wAsPrBEee0wspZWcu_sg">
+          <body># lock:bool</body>
+        </ownedComment>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_nG94wPrCEee0wspZWcu_sg" name="open" visibility="protected"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_OrbSwPrJEee0wspZWcu_sg" name="open" visibility="private" type="_JaJlYPrUEee0wspZWcu_sg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Q6tNwPrJEee0wspZWcu_sg" name="lock" visibility="private" type="_JaJlYPrUEee0wspZWcu_sg"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Mxu8UPrAEee0wspZWcu_sg" name="Open"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_jZfMUPrAEee0wspZWcu_sg" name="Lock"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Tm_ugPrBEee0wspZWcu_sg" name="Close"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_H0UDQPrEEee0wspZWcu_sg" name="IsOpen"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_IkJkwPrEEee0wspZWcu_sg" name="IsLock"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_WKr90PrCEee0wspZWcu_sg" name="MobilePhone">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_bSmS0PrCEee0wspZWcu_sg" name="IsOpen"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_eWXl0PrCEee0wspZWcu_sg" name="IsLocked"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_q4AAwPrKEee0wspZWcu_sg" name="BluetoothConnect">
+      <generalization xmi:type="uml:Generalization" xmi:id="_HkmvIPrLEee0wspZWcu_sg" general="_WKr90PrCEee0wspZWcu_sg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_pJR0IfrVEee0wspZWcu_sg" name="bluetoothdata" type="_YHMMIPrVEee0wspZWcu_sg" association="_pJQmAPrVEee0wspZWcu_sg"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_y8zksPrKEee0wspZWcu_sg" name=""/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ggm5sPrLEee0wspZWcu_sg" name="Run"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_me1ysPrLEee0wspZWcu_sg" name="Stop"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_JaJlYPrUEee0wspZWcu_sg" name="bool"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_jECJoPrUEee0wspZWcu_sg" name="int"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_YHMMIPrVEee0wspZWcu_sg" name="BluetoothData">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_wkXFoPrVEee0wspZWcu_sg" name="nbDoor" visibility="private" type="_jECJoPrUEee0wspZWcu_sg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_A2mvoPrXEee0wspZWcu_sg" name="doorState" visibility="private" type="_JaJlYPrUEee0wspZWcu_sg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_8pU6EPraEee0wspZWcu_sg" name="lockState" visibility="private" type="_JaJlYPrUEee0wspZWcu_sg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_jeFuwvrcEee0wspZWcu_sg" name="door" type="_Zso-cPq-Eee0wspZWcu_sg" association="_jeFHsPrcEee0wspZWcu_sg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_pJQmAPrVEee0wspZWcu_sg" memberEnd="_pJR0IfrVEee0wspZWcu_sg _pJSbMPrVEee0wspZWcu_sg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pJRNEPrVEee0wspZWcu_sg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pJR0IPrVEee0wspZWcu_sg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_pJSbMPrVEee0wspZWcu_sg" name="bluetoothconnect" type="_q4AAwPrKEee0wspZWcu_sg" association="_pJQmAPrVEee0wspZWcu_sg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_jeFHsPrcEee0wspZWcu_sg" memberEnd="_jeFuwvrcEee0wspZWcu_sg _jeFuw_rcEee0wspZWcu_sg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jeFuwPrcEee0wspZWcu_sg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jeFuwfrcEee0wspZWcu_sg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_jeFuw_rcEee0wspZWcu_sg" name="bluetoothdata" type="_YHMMIPrVEee0wspZWcu_sg" association="_jeFHsPrcEee0wspZWcu_sg"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_LeRwYPrAEee0wspZWcu_sg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LeZFIPrAEee0wspZWcu_sg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+  </uml:Model>
+  <ActionLanguage:TextualRepresentation xmi:id="_nnCx4PrAEee0wspZWcu_sg" base_Comment="_nnA8sPrAEee0wspZWcu_sg" language="org.eclipse.papyrus.uml.textedit.property.xtext.UmlProperty"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_x7T3APrAEee0wspZWcu_sg" base_Comment="_x7TP8PrAEee0wspZWcu_sg" language="org.eclipse.papyrus.uml.textedit.property.xtext.UmlProperty"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_P5wnwPrBEee0wspZWcu_sg" base_Comment="_P5wAsPrBEee0wspZWcu_sg" language="org.eclipse.papyrus.uml.textedit.property.xtext.UmlProperty"/>
+</xmi:XMI>
