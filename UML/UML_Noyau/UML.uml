@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ">
+  <uml:Model xmi:id="_0YBr4PrSEeenCKdSVeczSw" name="RootElement">
+    <packagedElement xmi:type="uml:Package" xmi:id="_2wwd0PrSEeenCKdSVeczSw" name="UML_Noyau">
+      <packagedElement xmi:type="uml:Class" xmi:id="_hZnEoPrTEeenCKdSVeczSw" name="Taskmanager">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_TZOdoPrUEeenCKdSVeczSw" name="Ctask" visibility="public">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_r9OX4PrUEeenCKdSVeczSw">
+            <body>- pPush: CTask {CTask}</body>
+          </ownedComment>
+        </ownedAttribute>
+        <nestedClassifier xmi:type="uml:DataType" xmi:id="_7O0vIPrTEeenCKdSVeczSw" name="DataType1sdds"/>
+        <nestedClassifier xmi:type="uml:Enumeration" xmi:id="_QJBRIPrUEeenCKdSVeczSw" name="Enumeration1"/>
+        <nestedClassifier xmi:type="uml:Interface" xmi:id="_RlaWoPrUEeenCKdSVeczSw" name="Interface1"/>
+        <nestedClassifier xmi:type="uml:PrimitiveType" xmi:id="_Sh_ToPrUEeenCKdSVeczSw" name="PrimitiveType1"/>
+        <ownedReception xmi:type="uml:Reception" xmi:id="_UjiUoPrUEeenCKdSVeczSw" name="Reception1"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_4kKDMPrUEeenCKdSVeczSw" name="CTask">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_QeO2sPrVEeenCKdSVeczSw" name="pFunc" visibility="private"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_dZtOoPrVEeenCKdSVeczSw" name="sc" visibility="private"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_s4FLsPrWEeenCKdSVeczSw" name="Attribute1">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_wBDHwPrWEeenCKdSVeczSw">
+            <body>- param : void*</body>
+          </ownedComment>
+        </ownedAttribute>
+      </packagedElement>
+      <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_nNPIwPrWEeenCKdSVeczSw" name="void*"/>
+      <packagedElement xmi:type="uml:DataType" xmi:id="_9J3YIPrWEeenCKdSVeczSw" name="CTask"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_r9jIAPrUEeenCKdSVeczSw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r9jIAfrUEeenCKdSVeczSw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+  </uml:Model>
+  <ActionLanguage:TextualRepresentation xmi:id="_r_IcYPrUEeenCKdSVeczSw" base_Comment="_r9OX4PrUEeenCKdSVeczSw" language="org.eclipse.papyrus.uml.textedit.property.xtext.UmlProperty"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_wBDHwfrWEeenCKdSVeczSw" base_Comment="_wBDHwPrWEeenCKdSVeczSw" language="org.eclipse.papyrus.uml.textedit.property.xtext.UmlProperty"/>
+</xmi:XMI>
