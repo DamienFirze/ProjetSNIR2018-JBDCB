@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_0YBr4PrSEeenCKdSVeczSw" name="RootElement">
+  <packagedElement xmi:type="uml:Package" xmi:id="_2wwd0PrSEeenCKdSVeczSw" name="UML_Noyau">
+    <packagedElement xmi:type="uml:Class" xmi:id="_hZnEoPrTEeenCKdSVeczSw" name="Taskmanager">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_TZOdoPrUEeenCKdSVeczSw" name="pPush" visibility="private" type="_9J3YIPrWEeenCKdSVeczSw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_pboWIPraEee3S6bq_HImPQ" name="pPop" visibility="private" type="_9J3YIPrWEeenCKdSVeczSw"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_CinosPrbEee3S6bq_HImPQ" name="Taskman(sc : int) : int"/>
+      <ownedReception xmi:type="uml:Reception" xmi:id="_UjiUoPrUEeenCKdSVeczSw" name="Reception1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_nNPIwPrWEeenCKdSVeczSw" name="void"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_9J3YIPrWEeenCKdSVeczSw" name="CTask">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_65NcwPrZEee3S6bq_HImPQ" name="pFunc" visibility="private" type="_Cc3bcPraEee3S6bq_HImPQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Rk6_sPraEee3S6bq_HImPQ" name="sc" visibility="private" type="__A65APrZEee3S6bq_HImPQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Vw3bsPraEee3S6bq_HImPQ" name="delay" visibility="private" type="__A65APrZEee3S6bq_HImPQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_dHN-MPraEee3S6bq_HImPQ" name="param" visibility="private" type="_nNPIwPrWEeenCKdSVeczSw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="__A65APrZEee3S6bq_HImPQ" name="int"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_Cc3bcPraEee3S6bq_HImPQ" name="t_ptf"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_r9jIAPrUEeenCKdSVeczSw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r9jIAfrUEeenCKdSVeczSw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
