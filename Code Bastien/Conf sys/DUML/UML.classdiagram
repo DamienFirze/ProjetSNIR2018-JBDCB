@@ -5,6 +5,10 @@
       <elementDefinition Id="b239b6d4-c783-4e01-80e7-5c8d9318afea" />
       <body>CLasses MFC</body>
     </comment>
+    <comment Id="6dc355be-973a-4e08-9f18-8d3ea4a23ba5">
+      <elementDefinition Id="566c41a5-9e69-456a-bc66-c9346aca8345" />
+      <body>Provisoire</body>
+    </comment>
   </ownedCommentsInternal>
   <appliedStereotypesInternal>
     <stereotypeInstance Id="d84e3296-638f-41e0-baae-363dddaac606" name="namespace" profile="CSharpProfile">
@@ -78,27 +82,13 @@
       </propertyInstances>
     </stereotypeInstance>
   </appliedStereotypesInternal>
-  <profileInstances>
-    <packageHasProfileInstances Id="2d4c30a1-f14a-4195-8d55-31ea89447898">
-      <profileInstance Id="b874cb86-096b-4b06-95aa-ac7fce0bef1f" name="CSharpProfile">
-        <elementDefinition Id="ce834b5b-8768-4762-bd72-e80b2a92f933" />
-      </profileInstance>
-      <elementDefinition Id="ab3018ac-013e-438a-96cd-832d95eaa549" />
-    </packageHasProfileInstances>
-    <packageHasProfileInstances Id="bc49320c-b4fc-497b-bb33-012242e2422b">
-      <profileInstance Id="219598d9-4f14-4f98-ad71-a9a7c9b1bedc" name="TextTemplateBindings">
-        <elementDefinition Id="a5ba7671-b0d4-4491-a834-c642db5a34e0" />
-      </profileInstance>
-      <elementDefinition Id="e859300e-42fb-4081-9630-7be85736e133" />
-    </packageHasProfileInstances>
-  </profileInstances>
   <packagedElements>
     <logicalClassDesignerModelHasTypes>
       <class Id="f1014444-2d76-4af2-8626-922533a0738b" name="CDlg" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="20c131a8-55f0-47e5-b19a-133777ea61d7" />
         <generalsInternal>
           <generalization Id="adc6d6f5-ec2f-40f4-aa3f-0d7acf141bd2" isSubstitutable="false">
-            <classMoniker Id="cd280b32-2614-4d53-ac47-58edfcf0e718" LastKnownName="CDialogEx" />
+            <classMoniker Id="cd280b32-2614-4d53-ac47-58edfcf0e718" LastKnownName="CDialog" />
             <elementDefinition Id="62048ac3-729a-4b8c-a5e8-9a17e0cf723b" />
           </generalization>
         </generalsInternal>
@@ -143,7 +133,7 @@
               <referencedTypeMoniker Id="7d0fd59c-bf99-4ef0-99cc-c972f9506633" LastKnownName="CStatic*" />
             </type_NamedElement>
           </property>
-          <property Id="d0da67a8-61d1-453f-af9f-fce8dfc199e9" name="m_p_COM_NUM_SAS" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+          <property Id="d0da67a8-61d1-453f-af9f-fce8dfc199e9" name="m_p_CMB_NUM_SAS" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="e2c9f597-0e1e-41d2-821c-dfa1fad40df0" />
             <type_NamedElement>
               <referencedTypeMoniker Id="002b51f2-8823-4294-8bcc-c488a04cdb03" LastKnownName="CComboBox*" />
@@ -176,10 +166,51 @@
           <property Id="cf377a2a-fee6-498e-b183-609b63dcdb82" name="m_pSas" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="c43e334e-c2b3-4e9c-bed4-80278e997fbe" />
             <type_NamedElement>
-              <referencedTypeMoniker Id="5221b52f-1e43-4d22-9797-b35c6e42b70a" LastKnownName="CSas*" />
+              <referencedTypeMoniker Id="7a51c4eb-8f3a-4804-b92f-1084f8f2bdb3" LastKnownName="vector&lt;CSas&gt;*" />
             </type_NamedElement>
           </property>
         </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="b22bb2f3-3c24-40b9-ab68-ab235b47e4ba" name="OnBnClickedBtNewSas" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="29a4f3c0-bb89-4aa1-bb9f-565ca098a683" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="889a8ff3-2201-4a41-9265-5146ae8d52f7" direction="Return">
+                  <elementDefinition Id="dd4a3962-007f-453c-beed-e452e0ad5bb6" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="816e9ae1-c1a2-4de0-b17b-80e9cc9a8da7" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="804424dd-3ec5-4371-ae13-9bc47f47dd6b" name="OnBnClickedBtDelSas" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3223276a-c075-45dc-9e3b-586884c7bee1" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="9ff8ec45-c929-4ecc-9df2-fb28d036aa87" direction="Return">
+                  <elementDefinition Id="3ea9019f-a530-47e1-9b41-be743738646b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="60ce3f90-8293-4206-9b74-5a91a7b89eb8" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="ff168678-b76c-4d0c-93ab-d5e96e1179bf" name="OnBnClickedBtSaveConf" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="e62827e9-5443-4c76-b3b4-9ee1cd50868b" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="923ccad3-2bcc-4180-a579-47f5af6d4765" direction="Return">
+                  <elementDefinition Id="6a9de75f-5920-4309-94c3-7ff0e0e070e9" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="7c5845f9-3c5a-4537-8b77-52d6f7e97268" LastKnownName="void" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
@@ -193,13 +224,49 @@
             </type_NamedElement>
           </property>
         </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="30afaabe-ce63-476e-981b-3bd9cfda0d26" name="CSas" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="69e06eef-e70e-4415-ae90-e2b6b83eb23d" name="create" profile="StandardProfileL2">
+                <elementDefinition Id="a8ad8176-21a3-4059-ba9d-de46ef6ca9ea" />
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="e1151550-f858-4e07-922f-6da7f82525fc" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="9b0e9b24-b6e8-443a-8175-feb42c893370" name="nNbPrt" direction="In" isUnique="false">
+                  <elementDefinition Id="4dedda8d-f9ac-4ab2-91ac-7ed06e341eb2" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="ff435c0f-9a02-4a75-953f-8dd660830c2a" LastKnownName="Integer" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="874472fd-649c-4324-b58c-f7e022516848" name="~CSas" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="697515c3-1931-455e-973b-afb96002f5eb" name="destroy" profile="StandardProfileL2">
+                <elementDefinition Id="bf4e5e99-721a-4f55-a2e5-f5e0dd60dd37" />
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="94e40cc8-3a12-4797-b75b-3b9b55525818" />
+          </operation>
+          <operation Id="3fd1fbee-6f7e-40ea-93aa-64da3491a3d7" name="GetNbPrt" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="7d73b6ee-497d-4bc7-a73c-1566115d18cd" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="8cd89a1b-08e6-4a26-ba6c-a5e2abe67905" direction="Return">
+                  <elementDefinition Id="621ca893-047e-46d7-b884-89bbef028fe1" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="b945f46b-58b1-4436-8387-40e636f6e6f1" LastKnownName="Integer const" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
-    <packageHasNamedElement>
-      <referencedType Id="5221b52f-1e43-4d22-9797-b35c6e42b70a" name="CSas*" isAbstract="false" isLeaf="false" cachedFullName="CSas*">
-        <elementDefinition Id="56cd5d6e-7366-4e80-ae56-03f8c72a623c" />
-      </referencedType>
-    </packageHasNamedElement>
     <packageHasNamedElement>
       <referencedType Id="f7f33d77-b0c1-48b3-9ae4-339f55367dca" name="CButton*" isAbstract="false" isLeaf="false" cachedFullName="CButton*">
         <elementDefinition Id="2b972fe7-b93a-486e-8a38-4d9599ee1cc7" />
@@ -211,7 +278,7 @@
       </referencedType>
     </packageHasNamedElement>
     <logicalClassDesignerModelHasTypes>
-      <class Id="cd280b32-2614-4d53-ac47-58edfcf0e718" name="CDialogEx" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="cd280b32-2614-4d53-ac47-58edfcf0e718" name="CDialog" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="aaa9225d-2105-4804-a488-58406b01cdb7" />
       </class>
     </logicalClassDesignerModelHasTypes>
@@ -287,6 +354,36 @@
         <elementDefinition Id="9eefd3e5-d324-4827-9b62-ced602d20930" />
       </referencedType>
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="ff435c0f-9a02-4a75-953f-8dd660830c2a" name="Integer" isAbstract="false" isLeaf="false" cachedFullName="Integer">
+        <elementDefinition Id="220a3521-e091-4221-bae9-3ef9018e845c" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="b945f46b-58b1-4436-8387-40e636f6e6f1" name="Integer const" isAbstract="false" isLeaf="false" cachedFullName="Integer const">
+        <elementDefinition Id="053d0840-fc02-4d22-9da8-c0162ea753e8" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="816e9ae1-c1a2-4de0-b17b-80e9cc9a8da7" name="void" isAbstract="false" isLeaf="false" cachedFullName="void">
+        <elementDefinition Id="4404a3e8-a7e1-4d97-bb2f-609d00256780" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="60ce3f90-8293-4206-9b74-5a91a7b89eb8" name="void" isAbstract="false" isLeaf="false" cachedFullName="void">
+        <elementDefinition Id="4404a3e8-a7e1-4d97-bb2f-609d00256780" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="7c5845f9-3c5a-4537-8b77-52d6f7e97268" name="void" isAbstract="false" isLeaf="false" cachedFullName="void">
+        <elementDefinition Id="4404a3e8-a7e1-4d97-bb2f-609d00256780" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="7a51c4eb-8f3a-4804-b92f-1084f8f2bdb3" name="vector&lt;CSas&gt;*" isAbstract="false" isLeaf="false" cachedFullName="vector&lt;CSas&gt;*">
+        <elementDefinition Id="4327ab07-cb31-4eb2-ba86-61e12ed1373a" />
+      </referencedType>
+    </packageHasNamedElement>
   </packagedElements>
   <package Id="06b0f9bb-5f94-43d0-868d-583d87c23f5b" name="DUML">
     <elementDefinition Id="8d4ea9d5-3541-44d6-a5d5-ab6136b7228d" />
@@ -302,6 +399,18 @@
           <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
         </profileInstance>
         <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="2d4c30a1-f14a-4195-8d55-31ea89447898">
+        <profileInstance Id="b874cb86-096b-4b06-95aa-ac7fce0bef1f" name="CSharpProfile">
+          <elementDefinition Id="ce834b5b-8768-4762-bd72-e80b2a92f933" />
+        </profileInstance>
+        <elementDefinition Id="ab3018ac-013e-438a-96cd-832d95eaa549" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="bc49320c-b4fc-497b-bb33-012242e2422b">
+        <profileInstance Id="219598d9-4f14-4f98-ad71-a9a7c9b1bedc" name="TextTemplateBindings">
+          <elementDefinition Id="a5ba7671-b0d4-4491-a834-c642db5a34e0" />
+        </profileInstance>
+        <elementDefinition Id="e859300e-42fb-4081-9630-7be85736e133" />
       </packageHasProfileInstances>
     </profileInstances>
   </package>

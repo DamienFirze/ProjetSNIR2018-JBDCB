@@ -8,6 +8,10 @@
       Id="b239b6d4-c783-4e01-80e7-5c8d9318afea">
       <body>CLasses MFC</body>
     </comment>
+    <comment
+      Id="566c41a5-9e69-456a-bc66-c9346aca8345">
+      <body>Provisoire</body>
+    </comment>
   </ownedCommentsInternal>
   <appliedStereotypesInternal>
     <stereotypeInstance
@@ -131,7 +135,7 @@
             isSubstitutable="false">
             <classMoniker
               Id="aaa9225d-2105-4804-a488-58406b01cdb7"
-              LastKnownName="CDialogEx"
+              LastKnownName="CDialog"
               LastKnownLocation="DUML.uml" />
           </generalization>
         </generalsInternal>
@@ -230,7 +234,7 @@
           </property>
           <property
             Id="e2c9f597-0e1e-41d2-821c-dfa1fad40df0"
-            name="m_p_COM_NUM_SAS"
+            name="m_p_CMB_NUM_SAS"
             visibility="Private"
             isLeaf="false"
             isStatic="false"
@@ -337,12 +341,83 @@
             isComposite="false">
             <type_NamedElement>
               <undefinedTypeMoniker
-                Id="56cd5d6e-7366-4e80-ae56-03f8c72a623c"
-                LastKnownName="CSas*"
+                Id="4327ab07-cb31-4eb2-ba86-61e12ed1373a"
+                LastKnownName="vector&lt;CSas&gt;*"
                 LastKnownLocation="DUML.uml" />
             </type_NamedElement>
           </property>
         </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="29a4f3c0-bb89-4aa1-bb9f-565ca098a683"
+            name="OnBnClickedBtNewSas"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="dd4a3962-007f-453c-beed-e452e0ad5bb6"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="4404a3e8-a7e1-4d97-bb2f-609d00256780"
+                      LastKnownName="void"
+                      LastKnownLocation="DUML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3223276a-c075-45dc-9e3b-586884c7bee1"
+            name="OnBnClickedBtDelSas"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3ea9019f-a530-47e1-9b41-be743738646b"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="4404a3e8-a7e1-4d97-bb2f-609d00256780"
+                      LastKnownName="void"
+                      LastKnownLocation="DUML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e62827e9-5443-4c76-b3b4-9ee1cd50868b"
+            name="OnBnClickedBtSaveConf"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="6a9de75f-5920-4309-94c3-7ff0e0e070e9"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="4404a3e8-a7e1-4d97-bb2f-609d00256780"
+                      LastKnownName="void"
+                      LastKnownLocation="DUML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -373,6 +448,77 @@
             </type_NamedElement>
           </property>
         </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="e1151550-f858-4e07-922f-6da7f82525fc"
+            name="CSas"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a8ad8176-21a3-4059-ba9d-de46ef6ca9ea"
+                name="create"
+                profile="StandardProfileL2" />
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4dedda8d-f9ac-4ab2-91ac-7ed06e341eb2"
+                  name="nNbPrt"
+                  direction="In"
+                  isUnique="false">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="DUML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="94e40cc8-3a12-4797-b75b-3b9b55525818"
+            name="~CSas"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bf4e5e99-721a-4f55-a2e5-f5e0dd60dd37"
+                name="destroy"
+                profile="StandardProfileL2" />
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="7d73b6ee-497d-4bc7-a73c-1566115d18cd"
+            name="GetNbPrt"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="621ca893-047e-46d7-b884-89bbef028fe1"
+                  direction="Return">
+                  <type_NamedElement>
+                    <undefinedTypeMoniker
+                      Id="053d0840-fc02-4d22-9da8-c0162ea753e8"
+                      LastKnownName="Integer const"
+                      LastKnownLocation="DUML.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -396,7 +542,7 @@
     <packageHasNamedElement>
       <class
         Id="aaa9225d-2105-4804-a488-58406b01cdb7"
-        name="CDialogEx"
+        name="CDialog"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false" />
@@ -513,6 +659,21 @@
       <undefinedType
         Id="9eefd3e5-d324-4827-9b62-ced602d20930"
         name="int" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="053d0840-fc02-4d22-9da8-c0162ea753e8"
+        name="Integer const" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="4404a3e8-a7e1-4d97-bb2f-609d00256780"
+        name="void" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="4327ab07-cb31-4eb2-ba86-61e12ed1373a"
+        name="vector&lt;CSas&gt;*" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType

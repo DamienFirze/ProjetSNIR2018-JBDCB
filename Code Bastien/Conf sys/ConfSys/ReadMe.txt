@@ -14,10 +14,10 @@ ConfSys.vcxproj.filters
 
 ConfSys.h
     Il s'agit du fichier d'en-tête principal pour l'application.
-    Il comprend d'autres en-têtes spécifiques au projet (notamment Resource.h) et déclare la classe d'application CConfSys.
+    Il comprend d'autres en-têtes spécifiques au projet (notamment Resource.h) et déclare la classe d'application CApp.
 
 ConfSys.cpp
-    Il s'agit du fichier source principal de l'application qui contient la classe d'application CConfSys.
+    Il s'agit du fichier source principal de l'application qui contient la classe d'application CApp.
 
 ConfSys.rc
     Il s'agit de la liste de toutes les ressources Microsoft Windows utilisées par le programme. Il inclut les icônes, les bitmaps et les curseurs qui sont stockés dans le sous-répertoire RES. Ce fichier peut être directement modifié dans Microsoft Visual C++. Les ressources de votre projet se trouvent dans 1036.
