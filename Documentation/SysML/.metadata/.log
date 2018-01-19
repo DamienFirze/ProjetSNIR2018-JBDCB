@@ -9811,14 +9811,22 @@ java.io.FileNotFoundException: D:\FirzeDamien\ProjetSNIR2018-JBDCB\SysML\.metada
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+<<<<<<< Updated upstream
 !SESSION 2018-01-19 14:31:25.438 -----------------------------------------------
+=======
+!SESSION 2018-01-16 17:23:12.381 -----------------------------------------------
+>>>>>>> Stashed changes
 eclipse.buildId=unknown
 java.version=1.8.0_65
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
 Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
+<<<<<<< Updated upstream
 !ENTRY org.eclipse.papyrus.infra.emf 4 0 2018-01-19 14:31:48.430
+=======
+!ENTRY org.eclipse.papyrus.infra.emf 4 0 2018-01-16 17:23:50.650
+>>>>>>> Stashed changes
 !MESSAGE Failed to scan model resource for parent reference.
 !STACK 0
 java.io.FileNotFoundException: D:\FirzeDamien\ProjetSNIR2018-JBDCB\SysML\gfhgh\model.uml (Le chemin d’accès spécifié est introuvable)
@@ -9839,7 +9847,11 @@ java.io.FileNotFoundException: D:\FirzeDamien\ProjetSNIR2018-JBDCB\SysML\gfhgh\m
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
 	at java.lang.Thread.run(Unknown Source)
 
+<<<<<<< Updated upstream
 !ENTRY org.eclipse.ui 4 4 2018-01-19 14:31:48.496
+=======
+!ENTRY org.eclipse.ui 4 4 2018-01-16 17:23:50.664
+>>>>>>> Stashed changes
 !MESSAGE Unable to initialize part
 !STACK 0
 java.lang.NullPointerException
@@ -9968,7 +9980,11 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 
+<<<<<<< Updated upstream
 !ENTRY org.eclipse.papyrus.infra.ui 4 0 2018-01-19 14:31:48.498
+=======
+!ENTRY org.eclipse.papyrus.infra.ui 4 0 2018-01-16 17:23:50.667
+>>>>>>> Stashed changes
 !MESSAGE Unexpected Error
 !STACK 0
 org.eclipse.papyrus.infra.core.services.BadStateException: Registry should be started before. (Service= 'org.eclipse.papyrus.infra.ui.services.EditorLifecycleManager', state= registered)
@@ -10094,7 +10110,11 @@ org.eclipse.papyrus.infra.core.services.BadStateException: Registry should be st
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 
+<<<<<<< Updated upstream
 !ENTRY org.eclipse.e4.ui.workbench 4 0 2018-01-19 14:31:48.500
+=======
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-01-16 17:23:50.670
+>>>>>>> Stashed changes
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -10218,19 +10238,32 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 
+<<<<<<< Updated upstream
 !ENTRY org.eclipse.ui 4 4 2018-01-19 14:31:48.503
 !MESSAGE Unable to create part
 !SUBENTRY 1 org.eclipse.ui 4 0 2018-01-19 14:31:48.503
 !MESSAGE 
 
 !ENTRY org.eclipse.egit.ui 2 0 2018-01-19 14:31:49.793
+=======
+!ENTRY org.eclipse.ui 4 4 2018-01-16 17:23:50.672
+!MESSAGE Unable to create part
+!SUBENTRY 1 org.eclipse.ui 4 0 2018-01-16 17:23:50.672
+!MESSAGE 
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-01-16 17:23:51.665
+>>>>>>> Stashed changes
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\eleve'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
+<<<<<<< Updated upstream
 !ENTRY org.eclipse.ui 4 4 2018-01-19 14:31:53.275
+=======
+!ENTRY org.eclipse.ui 4 4 2018-01-16 17:24:00.229
+>>>>>>> Stashed changes
 !MESSAGE Unable to initialize part
 !STACK 0
 java.lang.NullPointerException
@@ -10266,7 +10299,12 @@ java.lang.NullPointerException
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+<<<<<<< Updated upstream
 	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:104)
+=======
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1317)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
 	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
 	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
@@ -10319,7 +10357,11 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 
+<<<<<<< Updated upstream
 !ENTRY org.eclipse.papyrus.infra.ui 4 0 2018-01-19 14:31:53.276
+=======
+!ENTRY org.eclipse.papyrus.infra.ui 4 0 2018-01-16 17:24:00.231
+>>>>>>> Stashed changes
 !MESSAGE Unexpected Error
 !STACK 0
 org.eclipse.papyrus.infra.core.services.BadStateException: Registry should be started before. (Service= 'org.eclipse.papyrus.infra.ui.services.EditorLifecycleManager', state= registered)
@@ -10353,7 +10395,12 @@ org.eclipse.papyrus.infra.core.services.BadStateException: Registry should be st
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+<<<<<<< Updated upstream
 	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:104)
+=======
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1317)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
 	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
 	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
@@ -10406,7 +10453,11 @@ org.eclipse.papyrus.infra.core.services.BadStateException: Registry should be st
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 
+<<<<<<< Updated upstream
 !ENTRY org.eclipse.e4.ui.workbench 4 0 2018-01-19 14:31:53.278
+=======
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-01-16 17:24:00.233
+>>>>>>> Stashed changes
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -10438,7 +10489,12 @@ java.lang.NullPointerException
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+<<<<<<< Updated upstream
 	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:104)
+=======
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1317)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
 	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
 	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
@@ -10491,12 +10547,21 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 
+<<<<<<< Updated upstream
 !ENTRY org.eclipse.ui 4 4 2018-01-19 14:31:53.280
 !MESSAGE Unable to create part
 !SUBENTRY 1 org.eclipse.ui 4 0 2018-01-19 14:31:53.280
 !MESSAGE 
 
 !ENTRY org.eclipse.ui 4 4 2018-01-19 14:31:53.815
+=======
+!ENTRY org.eclipse.ui 4 4 2018-01-16 17:24:00.234
+!MESSAGE Unable to create part
+!SUBENTRY 1 org.eclipse.ui 4 0 2018-01-16 17:24:00.234
+!MESSAGE 
+
+!ENTRY org.eclipse.ui 4 4 2018-01-16 17:24:00.976
+>>>>>>> Stashed changes
 !MESSAGE Unable to initialize part
 !STACK 0
 java.lang.NullPointerException
@@ -10532,7 +10597,12 @@ java.lang.NullPointerException
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+<<<<<<< Updated upstream
 	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:104)
+=======
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1317)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
 	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
 	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
@@ -10585,7 +10655,11 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 
+<<<<<<< Updated upstream
 !ENTRY org.eclipse.papyrus.infra.ui 4 0 2018-01-19 14:31:53.817
+=======
+!ENTRY org.eclipse.papyrus.infra.ui 4 0 2018-01-16 17:24:00.978
+>>>>>>> Stashed changes
 !MESSAGE Unexpected Error
 !STACK 0
 org.eclipse.papyrus.infra.core.services.BadStateException: Registry should be started before. (Service= 'org.eclipse.papyrus.infra.ui.services.EditorLifecycleManager', state= registered)
@@ -10619,7 +10693,12 @@ org.eclipse.papyrus.infra.core.services.BadStateException: Registry should be st
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+<<<<<<< Updated upstream
 	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:104)
+=======
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1317)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
 	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
 	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
@@ -10672,7 +10751,11 @@ org.eclipse.papyrus.infra.core.services.BadStateException: Registry should be st
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 
+<<<<<<< Updated upstream
 !ENTRY org.eclipse.e4.ui.workbench 4 0 2018-01-19 14:31:53.818
+=======
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-01-16 17:24:00.980
+>>>>>>> Stashed changes
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -10704,7 +10787,12 @@ java.lang.NullPointerException
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+<<<<<<< Updated upstream
 	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:104)
+=======
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1317)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
 	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
 	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
@@ -10757,12 +10845,21 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 
+<<<<<<< Updated upstream
 !ENTRY org.eclipse.ui 4 4 2018-01-19 14:31:53.819
 !MESSAGE Unable to create part
 !SUBENTRY 1 org.eclipse.ui 4 0 2018-01-19 14:31:53.819
 !MESSAGE 
 
 !ENTRY org.eclipse.ui 4 4 2018-01-19 14:31:55.652
+=======
+!ENTRY org.eclipse.ui 4 4 2018-01-16 17:24:00.981
+!MESSAGE Unable to create part
+!SUBENTRY 1 org.eclipse.ui 4 0 2018-01-16 17:24:00.982
+!MESSAGE 
+
+!ENTRY org.eclipse.ui 4 4 2018-01-16 17:24:02.177
+>>>>>>> Stashed changes
 !MESSAGE Unable to initialize part
 !STACK 0
 java.lang.NullPointerException
@@ -10798,7 +10895,12 @@ java.lang.NullPointerException
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+<<<<<<< Updated upstream
 	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:104)
+=======
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1317)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
 	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
 	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
@@ -10851,7 +10953,11 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 
+<<<<<<< Updated upstream
 !ENTRY org.eclipse.papyrus.infra.ui 4 0 2018-01-19 14:31:55.654
+=======
+!ENTRY org.eclipse.papyrus.infra.ui 4 0 2018-01-16 17:24:02.179
+>>>>>>> Stashed changes
 !MESSAGE Unexpected Error
 !STACK 0
 org.eclipse.papyrus.infra.core.services.BadStateException: Registry should be started before. (Service= 'org.eclipse.papyrus.infra.ui.services.EditorLifecycleManager', state= registered)
@@ -10885,7 +10991,12 @@ org.eclipse.papyrus.infra.core.services.BadStateException: Registry should be st
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+<<<<<<< Updated upstream
 	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:104)
+=======
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1317)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
 	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
 	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
@@ -10938,7 +11049,11 @@ org.eclipse.papyrus.infra.core.services.BadStateException: Registry should be st
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 
+<<<<<<< Updated upstream
 !ENTRY org.eclipse.e4.ui.workbench 4 0 2018-01-19 14:31:55.655
+=======
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-01-16 17:24:02.180
+>>>>>>> Stashed changes
 !MESSAGE 
 !STACK 0
 java.lang.NullPointerException
@@ -10970,7 +11085,12 @@ java.lang.NullPointerException
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:722)
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:706)
+<<<<<<< Updated upstream
 	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:104)
+=======
+	at org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.showTab(StackRenderer.java:1317)
+	at org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer$1.handleEvent(LazyStackRenderer.java:72)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.services.internal.events.UIEventHandler$1.run(UIEventHandler.java:40)
 	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
 	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:145)
@@ -11023,6 +11143,7 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
 
+<<<<<<< Updated upstream
 !ENTRY org.eclipse.ui 4 4 2018-01-19 14:31:55.656
 !MESSAGE Unable to create part
 !SUBENTRY 1 org.eclipse.ui 4 0 2018-01-19 14:31:55.656
@@ -11208,6 +11329,28 @@ java.io.FileNotFoundException: D:\FirzeDamien\ProjetSNIR2018-JBDCB\SysML\.metada
 	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
 	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2552)
 	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3822)
+=======
+!ENTRY org.eclipse.ui 4 4 2018-01-16 17:24:02.181
+!MESSAGE Unable to create part
+!SUBENTRY 1 org.eclipse.ui 4 0 2018-01-16 17:24:02.181
+!MESSAGE 
+
+!ENTRY org.eclipse.papyrus.infra.types.core 1 0 2018-01-16 17:24:13.763
+!MESSAGE org.eclipse.papyrus.gmfdiag.common.Diagram is already registred elementtype but it is not binded yet. It has been binded to Papyrus context. 
+
+!ENTRY org.eclipse.papyrus.infra.types.core 1 0 2018-01-16 17:24:13.840
+!MESSAGE org.eclipse.gmf.runtime.emf.type.core.default is already registred elementtype but it is not binded yet. It has been binded to Papyrus context. 
+
+!ENTRY org.eclipse.ui 4 0 2018-01-16 17:29:32.404
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.StringIndexOutOfBoundsException: String index out of range: 18)
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4211)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3827)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$4.run(PartRenderingEngine.java:1121)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1022)
@@ -11229,6 +11372,7 @@ java.io.FileNotFoundException: D:\FirzeDamien\ProjetSNIR2018-JBDCB\SysML\.metada
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:673)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:610)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1519)
+<<<<<<< Updated upstream
 
 !ENTRY org.eclipse.papyrus.infra.core 4 0 2018-01-19 14:40:17.483
 !MESSAGE Unexpected Error
@@ -11341,6 +11485,89 @@ java.io.FileNotFoundException: D:\FirzeDamien\ProjetSNIR2018-JBDCB\SysML\.metada
 	at org.eclipse.papyrus.editor.PapyrusMultiDiagramEditor.deactivate(PapyrusMultiDiagramEditor.java:60)
 	at org.eclipse.papyrus.infra.core.sasheditor.editor.AbstractMultiPageSashEditor.dispose(AbstractMultiPageSashEditor.java:225)
 	at org.eclipse.papyrus.infra.ui.editor.CoreMultiDiagramEditor.dispose(CoreMultiDiagramEditor.java:829)
+=======
+Caused by: java.lang.StringIndexOutOfBoundsException: String index out of range: 18
+	at java.lang.String.substring(Unknown Source)
+	at org.eclipse.draw2d.text.TextFlow.getBidiSubstring(TextFlow.java:223)
+	at org.eclipse.gmf.runtime.draw2d.ui.text.TextFlowEx.paintFigure(TextFlowEx.java:157)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1118)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1200)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.gmf.runtime.draw2d.ui.figures.WrappingLabel.paintClientArea(WrappingLabel.java:1104)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1209)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Viewport.paintClientArea(Viewport.java:166)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.draw2d.Figure.paintChildren(Figure.java:1170)
+	at org.eclipse.draw2d.Figure.paintClientArea(Figure.java:1205)
+	at org.eclipse.draw2d.ScalableFreeformLayeredPane.paintClientArea(ScalableFreeformLayeredPane.java:60)
+	at org.eclipse.gmf.runtime.draw2d.ui.internal.graphics.ScalableFreeformLayeredPane.paintClientArea(ScalableFreeformLayeredPane.java:81)
+	at org.eclipse.draw2d.Figure.paint(Figure.java:1120)
+	at org.eclipse.gmf.runtime.draw2d.ui.internal.parts.ThumbnailEx$ThumbnailUpdater.run(ThumbnailEx.java:164)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	... 23 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-01-16 17:54:25.070
+!MESSAGE 
+!STACK 0
+org.eclipse.swt.SWTException: Graphic is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.graphics.GC.getAdvanced(GC.java:3393)
+	at org.eclipse.draw2d.SWTGraphics.restoreState(SWTGraphics.java:928)
+	at org.eclipse.draw2d.SWTGraphics.popState(SWTGraphics.java:828)
+	at org.eclipse.gmf.runtime.draw2d.ui.internal.graphics.ScaledGraphics.popState(ScaledGraphics.java:646)
+	at org.eclipse.gmf.runtime.draw2d.ui.internal.graphics.ScaledGraphics.dispose(ScaledGraphics.java:271)
+	at org.eclipse.gmf.runtime.draw2d.ui.internal.parts.ThumbnailEx$ThumbnailUpdater.stop(ThumbnailEx.java:284)
+	at org.eclipse.gmf.runtime.draw2d.ui.internal.parts.ThumbnailEx$ThumbnailUpdater.deactivate(ThumbnailEx.java:65)
+	at org.eclipse.gmf.runtime.draw2d.ui.internal.parts.ThumbnailEx.deactivate(ThumbnailEx.java:344)
+	at org.eclipse.gmf.runtime.draw2d.ui.internal.parts.ScrollableThumbnailEx.deactivate(ScrollableThumbnailEx.java:207)
+	at org.eclipse.gmf.runtime.diagram.ui.parts.DiagramEditor$DiagramOutlinePage.dispose(DiagramEditor.java:276)
+	at org.eclipse.papyrus.infra.gmfdiag.common.SynchronizableGmfDiagramEditor$OutlinePageWrapper.dispose(SynchronizableGmfDiagramEditor.java:619)
+	at org.eclipse.papyrus.infra.ui.contentoutline.NestedEditorDelegatedOutlinePage.doDestroyPage(NestedEditorDelegatedOutlinePage.java:515)
+	at org.eclipse.papyrus.infra.ui.contentoutline.NestedEditorDelegatedOutlinePage.removePage(NestedEditorDelegatedOutlinePage.java:654)
+	at org.eclipse.papyrus.infra.ui.contentoutline.NestedEditorDelegatedOutlinePage.internalDispose(NestedEditorDelegatedOutlinePage.java:161)
+	at org.eclipse.papyrus.infra.ui.contentoutline.NestedEditorDelegatedOutlinePage.dispose(NestedEditorDelegatedOutlinePage.java:138)
+	at org.eclipse.ui.views.contentoutline.ContentOutline.doDestroyPage(ContentOutline.java:141)
+	at org.eclipse.ui.part.PageBookView.removePage(PageBookView.java:864)
+	at org.eclipse.ui.part.PageBookView.dispose(PageBookView.java:509)
+>>>>>>> Stashed changes
 	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.invalidate(CompatibilityPart.java:237)
 	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.destroy(CompatibilityPart.java:403)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -11361,18 +11588,12 @@ java.io.FileNotFoundException: D:\FirzeDamien\ProjetSNIR2018-JBDCB\SysML\.metada
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$3.run(PartRenderingEngine.java:841)
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:825)
+<<<<<<< Updated upstream
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:880)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$1(PartRenderingEngine.java:846)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$3.run(PartRenderingEngine.java:841)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:825)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:880)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$1(PartRenderingEngine.java:846)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$3.run(PartRenderingEngine.java:841)
-	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:825)
+=======
 	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.disposeWidget(ElementReferenceRenderer.java:112)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:918)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$1(PartRenderingEngine.java:846)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$3.run(PartRenderingEngine.java:841)
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
@@ -11382,7 +11603,30 @@ java.io.FileNotFoundException: D:\FirzeDamien\ProjetSNIR2018-JBDCB\SysML\.metada
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$3.run(PartRenderingEngine.java:841)
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:825)
+<<<<<<< Updated upstream
+	at org.eclipse.e4.ui.workbench.renderers.swt.ElementReferenceRenderer.disposeWidget(ElementReferenceRenderer.java:112)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:918)
+=======
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:873)
+>>>>>>> Stashed changes
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$1(PartRenderingEngine.java:846)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$3.run(PartRenderingEngine.java:841)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:825)
+<<<<<<< Updated upstream
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:880)
+=======
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:873)
+>>>>>>> Stashed changes
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$1(PartRenderingEngine.java:846)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$3.run(PartRenderingEngine.java:841)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:825)
+<<<<<<< Updated upstream
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:880)
+=======
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:873)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$1(PartRenderingEngine.java:846)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$3.run(PartRenderingEngine.java:841)
 	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
