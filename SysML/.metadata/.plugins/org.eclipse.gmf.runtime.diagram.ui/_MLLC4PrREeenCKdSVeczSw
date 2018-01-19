@@ -1,6 +1,6 @@
-#Tue Jan 16 17:09:40 CET 2018
-viewport.x=-7
-zoom=0.5
+#Fri Jan 19 14:40:23 CET 2018
+viewport.x=-1
+zoom=1.0
 print.margin.right=0.5
 rulergrid.rulerunit=2
 rulergrid.snaptogrid=false
@@ -16,4 +16,4 @@ rulergrid.gridlevel=false
 print.margin.top=0.5
 print.useMillim=true
 print.usePortrait=true
-viewport.y=-7
+viewport.y=-13

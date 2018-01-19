@@ -4,12 +4,12 @@
     <packagedElement xmi:type="uml:Actor" xmi:id="_NOuxoPrREeenCKdSVeczSw" name="Directeur">
       <generalization xmi:type="uml:Generalization" xmi:id="_j6msoPrREeenCKdSVeczSw" general="_OQGvEPrREeenCKdSVeczSw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_OQGvEPrREeenCKdSVeczSw" name="Technicien">
+    <packagedElement xmi:type="uml:Actor" xmi:id="_OQGvEPrREeenCKdSVeczSw" name="Personne habilité">
       <generalization xmi:type="uml:Generalization" xmi:id="_lzsVMPrREeenCKdSVeczSw" general="_OvmHcPrREeenCKdSVeczSw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_OvmHcPrREeenCKdSVeczSw" name="Client"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_OvmHcPrREeenCKdSVeczSw" name="Personne non habilité"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_XLLMoPrREeenCKdSVeczSw" name="Diagnostiquer, ouvrir, fermer, verouiller, configurer"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_eoi9IPrREeenCKdSVeczSw" name="Demander accés SAS"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_eoi9IPrREeenCKdSVeczSw" name="Demander accès sas"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_nNL3sPrREeenCKdSVeczSw" memberEnd="_nNMewfrREeenCKdSVeczSw _nNMewvrREeenCKdSVeczSw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nNL3sfrREeenCKdSVeczSw" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nNMewPrREeenCKdSVeczSw" key="nature" value="UML_Nature"/>
@@ -48,7 +48,7 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_1ulro_rREeenCKdSVeczSw" name="demander accés sas" type="_1um5wPrREeenCKdSVeczSw" association="_1ulroPrREeenCKdSVeczSw"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_1ulrpPrREeenCKdSVeczSw" name="client" type="_1umSsPrREeenCKdSVeczSw" association="_1ulroPrREeenCKdSVeczSw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_1umSsPrREeenCKdSVeczSw" name="Client"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_1umSsPrREeenCKdSVeczSw" name="Personne non habilité"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_1umSsfrREeenCKdSVeczSw" memberEnd="_1umStPrREeenCKdSVeczSw _1umStfrREeenCKdSVeczSw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1umSsvrREeenCKdSVeczSw" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1umSs_rREeenCKdSVeczSw" key="nature" value="UML_Nature"/>
@@ -71,18 +71,18 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_1umSv_rREeenCKdSVeczSw" name="technicien" type="_1um5w_rREeenCKdSVeczSw" association="_1umSu_rREeenCKdSVeczSw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_1umSwPrREeenCKdSVeczSw" name="Diagnostiquer, ouvrir, fermer, verouiller, configurer"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_1um5wPrREeenCKdSVeczSw" name="Demander accés SAS"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_1um5wPrREeenCKdSVeczSw" name="Demander accès sas"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_1um5wfrREeenCKdSVeczSw" name="Directeur">
       <generalization xmi:type="uml:Generalization" xmi:id="_1um5wvrREeenCKdSVeczSw" general="_1um5w_rREeenCKdSVeczSw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_1um5w_rREeenCKdSVeczSw" name="Technicien">
+    <packagedElement xmi:type="uml:Actor" xmi:id="_1um5w_rREeenCKdSVeczSw" name="Personne habilité">
       <generalization xmi:type="uml:Generalization" xmi:id="_EGygQPrSEeenCKdSVeczSw" general="_5GolgPrREeenCKdSVeczSw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Actor" xmi:id="_1um5xfrREeenCKdSVeczSw" name="Porte 1 et 2"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_5GolgPrREeenCKdSVeczSw" name="Chargé(e) d'accueil">
       <generalization xmi:type="uml:Generalization" xmi:id="_FAiLsPrSEeenCKdSVeczSw" general="_1umSsPrREeenCKdSVeczSw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_AWhToPrSEeenCKdSVeczSw" name="Autoriser l'acces au SAS"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_AWhToPrSEeenCKdSVeczSw" name="Autoriser l'accès au sas"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_I7PGsPrSEeenCKdSVeczSw" memberEnd="_I7PGs_rSEeenCKdSVeczSw _I7PGtPrSEeenCKdSVeczSw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_I7PGsfrSEeenCKdSVeczSw" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_I7PGsvrSEeenCKdSVeczSw" key="nature" value="UML_Nature"/>

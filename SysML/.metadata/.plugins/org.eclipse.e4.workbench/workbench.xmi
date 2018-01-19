@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_-Vj4kfq9EeenCKdSVeczSw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_-VkfoPq9EeenCKdSVeczSw" bindingContexts="_-Vkfpvq9EeenCKdSVeczSw">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;model.di&quot; tooltip=&quot;D:\FirzeDamien\ProjetSNIR2018-JBDCB\SysML\gfhgh\model.di&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/FirzeDamien/ProjetSNIR2018-JBDCB/SysML/gfhgh/model.di&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;UML.di&quot; tooltip=&quot;UML_Noyau/UML.di&quot;>&#xD;&#xA;&lt;persistable path=&quot;/UML_Noyau/UML.di&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;SysMLProjetSNIR2018.di&quot; tooltip=&quot;D:\FirzeDamien\ProjetSNIR2018-JBDCB\SysML\SysMLProjetSNIR2018\SysMLProjetSNIR2018.di&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/FirzeDamien/ProjetSNIR2018-JBDCB/SysML/SysMLProjetSNIR2018/SysMLProjetSNIR2018.di&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;ProjetSNIR2018.di&quot; tooltip=&quot;D:\FirzeDamien\ProjetSNIR2018-JBDCB\SysML\ProjetSNIR2018\ProjetSNIR2018.di&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/FirzeDamien/ProjetSNIR2018-JBDCB/SysML/ProjetSNIR2018/ProjetSNIR2018.di&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;model.di&quot; tooltip=&quot;D:\FirzeDamien\ProjetSNIR2018-JBDCB\SysML\Diagramme des cas\model.di&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/FirzeDamien/ProjetSNIR2018-JBDCB/SysML/Diagramme%20des%20cas/model.di&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;model.di&quot; tooltip=&quot;D:\FirzeDamien\ProjetSNIR2018-JBDCB\SysML\gfhgh\model.di&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/FirzeDamien/ProjetSNIR2018-JBDCB/SysML/gfhgh/model.di&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;UML.di&quot; tooltip=&quot;UML_Noyau/UML.di&quot;>&#xD;&#xA;&lt;persistable path=&quot;/UML_Noyau/UML.di&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;SysMLProjetSNIR2018.di&quot; tooltip=&quot;D:\FirzeDamien\ProjetSNIR2018-JBDCB\SysML\SysMLProjetSNIR2018\SysMLProjetSNIR2018.di&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/FirzeDamien/ProjetSNIR2018-JBDCB/SysML/SysMLProjetSNIR2018/SysMLProjetSNIR2018.di&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;ProjetSNIR2018.di&quot; tooltip=&quot;D:\FirzeDamien\ProjetSNIR2018-JBDCB\SysML\ProjetSNIR2018\ProjetSNIR2018.di&quot;>&#xD;&#xA;&lt;persistable uri=&quot;file:/D:/FirzeDamien/ProjetSNIR2018-JBDCB/SysML/ProjetSNIR2018/ProjetSNIR2018.di&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
   <children xsi:type="basic:TrimmedWindow" xmi:id="_-VkfoPq9EeenCKdSVeczSw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="_ABcLkvq-EeenCKdSVeczSw" x="350" y="19" width="1024" height="768">
@@ -40,7 +40,7 @@
           <tags>persp.perspSC:org.eclipse.ui.resourcePerspective</tags>
           <tags>persp.perspSC:org.eclipse.jdt.ui.JavaPerspective</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_AT50kfq-EeenCKdSVeczSw" selectedElement="_AT50mvq-EeenCKdSVeczSw" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="_AT50kvq-EeenCKdSVeczSw" containerData="3344" selectedElement="_AT50k_q-EeenCKdSVeczSw">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_AT50kvq-EeenCKdSVeczSw" containerData="3344" selectedElement="_AT50lfq-EeenCKdSVeczSw">
               <children xsi:type="basic:PartStack" xmi:id="_AT50k_q-EeenCKdSVeczSw" elementId="org.eclipse.ui.navigator.ProjectExplorerMStack" containerData="3300" selectedElement="_AT50lPq-EeenCKdSVeczSw">
                 <children xsi:type="advanced:Placeholder" xmi:id="_AT50lPq-EeenCKdSVeczSw" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_ATngsPq-EeenCKdSVeczSw"/>
               </children>
@@ -89,35 +89,17 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_AThaEPq-EeenCKdSVeczSw" elementId="org.eclipse.ui.editorss" selectedElement="_AThaEfq-EeenCKdSVeczSw">
-      <children xsi:type="basic:PartStack" xmi:id="_AThaEfq-EeenCKdSVeczSw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_Xzkz8PrSEeenCKdSVeczSw">
+      <children xsi:type="basic:PartStack" xmi:id="_AThaEfq-EeenCKdSVeczSw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_NdTY8P0dEee8mf5A11Idaw">
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
         <tags>active</tags>
-        <children xsi:type="basic:Part" xmi:id="_Xzkz8PrSEeenCKdSVeczSw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="model.di" iconURI="platform:/plugin/org.eclipse.papyrus.editor/icons/papyrus/Papyrus_16x16.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;model.di&quot; partName=&quot;model.di&quot; title=&quot;model.di&quot; tooltip=&quot;D:\FirzeDamien\ProjetSNIR2018-JBDCB\SysML\gfhgh\model.di&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;file:/D:/FirzeDamien/ProjetSNIR2018-JBDCB/SysML/gfhgh/model.di&quot;/>&#xD;&#xA;&lt;/editor>"/>
+        <children xsi:type="basic:Part" xmi:id="_NdTY8P0dEee8mf5A11Idaw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="model.di" iconURI="platform:/plugin/org.eclipse.papyrus.editor/icons/papyrus/Papyrus_16x16.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;model.di&quot; partName=&quot;model.di&quot; title=&quot;model.di&quot; tooltip=&quot;D:\FirzeDamien\ProjetSNIR2018-JBDCB\SysML\Diagramme des cas\model.di&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;file:/D:/FirzeDamien/ProjetSNIR2018-JBDCB/SysML/Diagramme%20des%20cas/model.di&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.papyrus.infra.core.papyrusEditor</tags>
           <tags>removeOnHide</tags>
           <tags>active</tags>
           <tags>activeOnClose</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_bcYtsPrSEeenCKdSVeczSw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="model.di" iconURI="platform:/plugin/org.eclipse.papyrus.editor/icons/papyrus/Papyrus_16x16.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;model.di&quot; partName=&quot;model.di&quot; title=&quot;model.di&quot; tooltip=&quot;D:\FirzeDamien\ProjetSNIR2018-JBDCB\SysML\fdesfdsf\model.di&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;file:/D:/FirzeDamien/ProjetSNIR2018-JBDCB/SysML/fdesfdsf/model.di&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.papyrus.infra.core.papyrusEditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_jXKy8PrSEeenCKdSVeczSw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="ProjetSNIR2018.di" iconURI="platform:/plugin/org.eclipse.papyrus.editor/icons/papyrus/Papyrus_16x16.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;ProjetSNIR2018.di&quot; partName=&quot;ProjetSNIR2018.di&quot; title=&quot;ProjetSNIR2018.di&quot; tooltip=&quot;D:\FirzeDamien\ProjetSNIR2018-JBDCB\SysML\ProjetSNIR2018\ProjetSNIR2018.di&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;file:/D:/FirzeDamien/ProjetSNIR2018-JBDCB/SysML/ProjetSNIR2018/ProjetSNIR2018.di&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.papyrus.infra.core.papyrusEditor</tags>
-          <tags>removeOnHide</tags>
-        </children>
-        <children xsi:type="basic:Part" xmi:id="_mRyJ8PrSEeenCKdSVeczSw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="SysMLProjetSNIR2018.di" iconURI="platform:/plugin/org.eclipse.papyrus.editor/icons/papyrus/Papyrus_16x16.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.papyrus.infra.core.papyrusEditor&quot; name=&quot;SysMLProjetSNIR2018.di&quot; partName=&quot;SysMLProjetSNIR2018.di&quot; title=&quot;SysMLProjetSNIR2018.di&quot; tooltip=&quot;D:\FirzeDamien\ProjetSNIR2018-JBDCB\SysML\SysMLProjetSNIR2018\SysMLProjetSNIR2018.di&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.ide.FileStoreEditorInputFactory&quot; uri=&quot;file:/D:/FirzeDamien/ProjetSNIR2018-JBDCB/SysML/SysMLProjetSNIR2018/SysMLProjetSNIR2018.di&quot;/>&#xD;&#xA;&lt;/editor>"/>
-          <tags>Editor</tags>
-          <tags>org.eclipse.papyrus.infra.core.papyrusEditor</tags>
-          <tags>removeOnHide</tags>
         </children>
       </children>
     </sharedElements>
@@ -188,7 +170,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ANUrcPq-EeenCKdSVeczSw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_3Q2g4PrXEeeC-sXda6dbsQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_-YIEjPq9EeenCKdSVeczSw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_FcVMIP0dEee8mf5A11Idaw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_-YIEjPq9EeenCKdSVeczSw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ANVSgPq-EeenCKdSVeczSw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -206,7 +188,10 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ANVShPq-EeenCKdSVeczSw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_3Q49IPrXEeeC-sXda6dbsQ" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_-YHdbvq9EeenCKdSVeczSw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_FcXoYP0dEee8mf5A11Idaw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_-YHdbvq9EeenCKdSVeczSw"/>
+      </children>
+      <children xsi:type="menu:ToolBar" xmi:id="_GML7wP0dEee8mf5A11Idaw" elementId="org.eclipse.papyrus.infra.core.papyrusEditor">
+        <tags>Draggable</tags>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_ANVShfq-EeenCKdSVeczSw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -240,8 +225,26 @@
         <tags>Draggable</tags>
       </children>
     </trimBars>
-    <trimBars xmi:id="_-Vkfo_q9EeenCKdSVeczSw" elementId="org.eclipse.ui.trim.vertical1" contributorURI="platform:/plugin/org.eclipse.ui.workbench" side="Left"/>
-    <trimBars xmi:id="_-VkfpPq9EeenCKdSVeczSw" elementId="org.eclipse.ui.trim.vertical2" contributorURI="platform:/plugin/org.eclipse.ui.workbench" side="Right"/>
+    <trimBars xmi:id="_-Vkfo_q9EeenCKdSVeczSw" elementId="org.eclipse.ui.trim.vertical1" contributorURI="platform:/plugin/org.eclipse.ui.workbench" toBeRendered="false" side="Left">
+      <children xsi:type="menu:ToolControl" xmi:id="_HQLvYP0dEee8mf5A11Idaw" elementId="org.eclipse.ui.navigator.ProjectExplorerMStack(IDEWindow).(org.eclipse.papyrus.infra.core.perspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+        <tags>Draggable</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_HQqQgP0dEee8mf5A11Idaw" elementId="org.eclipse.papyrus.views.modelexplorer.modelexplorerMStack(IDEWindow).(org.eclipse.papyrus.infra.core.perspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+        <tags>Draggable</tags>
+      </children>
+      <children xsi:type="menu:ToolControl" xmi:id="_HQw-MP0dEee8mf5A11Idaw" elementId="org.eclipse.ui.views.ContentOutlineMStack(IDEWindow).(org.eclipse.papyrus.infra.core.perspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+        <tags>Draggable</tags>
+      </children>
+    </trimBars>
+    <trimBars xmi:id="_-VkfpPq9EeenCKdSVeczSw" elementId="org.eclipse.ui.trim.vertical2" contributorURI="platform:/plugin/org.eclipse.ui.workbench" toBeRendered="false" side="Right">
+      <children xsi:type="menu:ToolControl" xmi:id="_HQ3E0P0dEee8mf5A11Idaw" elementId="org.eclipse.papyrus.perspective.folder.bottom(IDEWindow).(org.eclipse.papyrus.infra.core.perspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+        <tags>TrimStack</tags>
+        <tags>Draggable</tags>
+      </children>
+    </trimBars>
   </children>
   <handlers xmi:id="_p45hULy3EeOxWJvPH-7sUQ" elementId="org.eclipse.e4.tools.emf.ui.handler.mark_duplicate_ids" contributorURI="platform:/plugin/org.eclipse.e4.tools.emf.ui" contributionURI="bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateElementIdsHandler" command="_RRp7QLy2EeOxWJvPH-7sUQ"/>
   <handlers xmi:id="_AOEgkL2JEeOqSr2XZwfnmA" elementId="org.eclipse.e4.tools.emf.ui.handler.mark_duplicate_labels" contributorURI="platform:/plugin/org.eclipse.e4.tools.emf.ui" contributionURI="bundleclass://org.eclipse.e4.tools.emf.ui/org.eclipse.e4.tools.emf.ui.internal.handlers.MarkDuplicateLabelsHandler" command="_9ITpgL2IEeOqSr2XZwfnmA"/>
@@ -2855,7 +2858,7 @@
   <addons xmi:id="_-Vkfsvq9EeenCKdSVeczSw" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_-Vkfs_q9EeenCKdSVeczSw" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_-V_9cPq9EeenCKdSVeczSw" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_2B-S8frXEeeC-sXda6dbsQ" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="_-X6pAPq9EeenCKdSVeczSw" elementId="org.eclipse.ui.category.edit" name="Edit"/>
   <categories xmi:id="_-X6pAfq9EeenCKdSVeczSw" elementId="org.eclipse.papyrus.infra.nattable.rows.command.category" name="NatTable Rows Catgerory" description="This category is used for all rows commands"/>
