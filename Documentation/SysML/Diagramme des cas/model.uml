@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_LzJiQPrCEeenCKdSVeczSw" name="RootElement">
   <packagedElement xmi:type="uml:Package" xmi:id="_BExWMPrREeenCKdSVeczSw" name="Package1">
-    <packagedElement xmi:type="uml:Actor" xmi:id="_NOuxoPrREeenCKdSVeczSw" name="Directeur">
-      <generalization xmi:type="uml:Generalization" xmi:id="_j6msoPrREeenCKdSVeczSw" general="_OQGvEPrREeenCKdSVeczSw"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_OQGvEPrREeenCKdSVeczSw" name="Personne habilité">
-      <generalization xmi:type="uml:Generalization" xmi:id="_lzsVMPrREeenCKdSVeczSw" general="_OvmHcPrREeenCKdSVeczSw"/>
-    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_NOuxoPrREeenCKdSVeczSw" name="Directeur"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_OQGvEPrREeenCKdSVeczSw" name="Personne habilité"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_OvmHcPrREeenCKdSVeczSw" name="Client"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_XLLMoPrREeenCKdSVeczSw" name="Diagnostiquer, ouvrir, fermer, verouiller, configurer"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_eoi9IPrREeenCKdSVeczSw" name="Demander accès sas"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_nNL3sPrREeenCKdSVeczSw" memberEnd="_nNMewfrREeenCKdSVeczSw _nNMewvrREeenCKdSVeczSw">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nNL3sfrREeenCKdSVeczSw" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nNMewPrREeenCKdSVeczSw" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_nNMewfrREeenCKdSVeczSw" name="diagnostiquer, ouvrir, fermer, verouiller, configurer" type="_XLLMoPrREeenCKdSVeczSw" association="_nNL3sPrREeenCKdSVeczSw"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_nNMewvrREeenCKdSVeczSw" name="technicien" type="_OQGvEPrREeenCKdSVeczSw" association="_nNL3sPrREeenCKdSVeczSw"/>
-    </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_obihMPrREeenCKdSVeczSw" memberEnd="_objIQvrREeenCKdSVeczSw _objIQ_rREeenCKdSVeczSw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_objIQPrREeenCKdSVeczSw" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_objIQfrREeenCKdSVeczSw" key="nature" value="UML_Nature"/>
@@ -24,7 +13,7 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_objIQvrREeenCKdSVeczSw" name="demander accés sas" type="_eoi9IPrREeenCKdSVeczSw" association="_obihMPrREeenCKdSVeczSw"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_objIQ_rREeenCKdSVeczSw" name="client" type="_OvmHcPrREeenCKdSVeczSw" association="_obihMPrREeenCKdSVeczSw"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_pyftEPrREeenCKdSVeczSw" name="Porte 1 et 2"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_pyftEPrREeenCKdSVeczSw" name="Portes 1 et 2"/>
     <packagedElement xmi:type="uml:Association" xmi:id="_s_hCsPrREeenCKdSVeczSw" memberEnd="_s_hpwfrREeenCKdSVeczSw _s_hpwvrREeenCKdSVeczSw">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s_hCsfrREeenCKdSVeczSw" source="org.eclipse.papyrus">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s_hpwPrREeenCKdSVeczSw" key="nature" value="UML_Nature"/>
@@ -38,6 +27,36 @@
       </eAnnotations>
       <ownedEnd xmi:type="uml:Property" xmi:id="_uQs9wvrREeenCKdSVeczSw" name="demander accés sas" type="_eoi9IPrREeenCKdSVeczSw" association="_uQsWsPrREeenCKdSVeczSw"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_uQs9w_rREeenCKdSVeczSw" name="porte 1 et 2" type="_pyftEPrREeenCKdSVeczSw" association="_uQsWsPrREeenCKdSVeczSw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_QrceAP-QEee9H4kx2rzwfg" name="Accès agence fermée"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_lpgMUP-QEee9H4kx2rzwfg" memberEnd="_lpm6AP-QEee9H4kx2rzwfg _lpnhEP-QEee9H4kx2rzwfg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lpj2sP-QEee9H4kx2rzwfg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lpkdwP-QEee9H4kx2rzwfg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lpm6AP-QEee9H4kx2rzwfg" name="porte 1 et 2" type="_pyftEPrREeenCKdSVeczSw" association="_lpgMUP-QEee9H4kx2rzwfg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_lpnhEP-QEee9H4kx2rzwfg" name="accès agence fermée" type="_QrceAP-QEee9H4kx2rzwfg" association="_lpgMUP-QEee9H4kx2rzwfg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_m6cPwP-QEee9H4kx2rzwfg" memberEnd="_m6eE8f-QEee9H4kx2rzwfg _m6esAP-QEee9H4kx2rzwfg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_m6dd4P-QEee9H4kx2rzwfg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_m6eE8P-QEee9H4kx2rzwfg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_m6eE8f-QEee9H4kx2rzwfg" name="accès agence fermée" type="_QrceAP-QEee9H4kx2rzwfg" association="_m6cPwP-QEee9H4kx2rzwfg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_m6esAP-QEee9H4kx2rzwfg" name="directeur" type="_NOuxoPrREeenCKdSVeczSw" association="_m6cPwP-QEee9H4kx2rzwfg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_nil04P-QEee9H4kx2rzwfg" memberEnd="_nioRIP-QEee9H4kx2rzwfg _nio4MP-QEee9H4kx2rzwfg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ninDAP-QEee9H4kx2rzwfg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ninqEP-QEee9H4kx2rzwfg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_nioRIP-QEee9H4kx2rzwfg" name="diagnostiquer, ouvrir, fermer, verouiller, configurer" type="_XLLMoPrREeenCKdSVeczSw" association="_nil04P-QEee9H4kx2rzwfg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_nio4MP-QEee9H4kx2rzwfg" name="personne habilité" type="_OQGvEPrREeenCKdSVeczSw" association="_nil04P-QEee9H4kx2rzwfg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_uJOKoP-QEee9H4kx2rzwfg" name="Lecteur badge"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_vzNnQP-QEee9H4kx2rzwfg" memberEnd="_vzPccP-QEee9H4kx2rzwfg _vzQDgP-QEee9H4kx2rzwfg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vzOOUP-QEee9H4kx2rzwfg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vzO1YP-QEee9H4kx2rzwfg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_vzPccP-QEee9H4kx2rzwfg" name="lecteur badge" type="_uJOKoP-QEee9H4kx2rzwfg" association="_vzNnQP-QEee9H4kx2rzwfg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_vzQDgP-QEee9H4kx2rzwfg" name="accès agence fermée" type="_QrceAP-QEee9H4kx2rzwfg" association="_vzNnQP-QEee9H4kx2rzwfg"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_xaMeQPrREeenCKdSVeczSw" name="Package2">
@@ -73,10 +92,10 @@
     <packagedElement xmi:type="uml:UseCase" xmi:id="_1umSwPrREeenCKdSVeczSw" name="Diagnostiquer, ouvrir, fermer, verouiller, configurer"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_1um5wPrREeenCKdSVeczSw" name="Demander accès sas"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_1um5wfrREeenCKdSVeczSw" name="Directeur">
-      <generalization xmi:type="uml:Generalization" xmi:id="__2MksP96EeeELPiOhE4FKw" general="_5GolgPrREeenCKdSVeczSw"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_7v7GUP-PEee9H4kx2rzwfg" general="_5GolgPrREeenCKdSVeczSw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Actor" xmi:id="_1um5w_rREeenCKdSVeczSw" name="Technicien"/>
-    <packagedElement xmi:type="uml:Actor" xmi:id="_1um5xfrREeenCKdSVeczSw" name="Porte 1 et 2"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_1um5xfrREeenCKdSVeczSw" name="Portes 1 et 2"/>
     <packagedElement xmi:type="uml:Actor" xmi:id="_5GolgPrREeenCKdSVeczSw" name="Chargé(e) d'accueil">
       <generalization xmi:type="uml:Generalization" xmi:id="_FAiLsPrSEeenCKdSVeczSw" general="_1umSsPrREeenCKdSVeczSw"/>
     </packagedElement>
