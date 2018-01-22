@@ -7,22 +7,22 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_GPoyAP0VEeecJ7YSHMO_mQ">
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Class" xmi:id="_ZyFogP0WEeecJ7YSHMO_mQ" name="Automatisation d'un SAS">
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZyFogP0WEeecJ7YSHMO_mQ" name="Modernisation du système de gestion d'un sas">
       <nestedClassifier xmi:type="uml:Class" xmi:id="_cnoOEP0dEeecJ7YSHMO_mQ" name="Carte principale"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_wh2vkP0XEeecJ7YSHMO_mQ" name="Platine d'appel"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_Gim0gP0ZEeecJ7YSHMO_mQ" name="Boutton d'appel"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_Hi1tAP0aEeecJ7YSHMO_mQ" name="Aucune porte ouverte"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_VCGSAP0bEeecJ7YSHMO_mQ" name="Une seule personne dans le SAS"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Hi1tAP0aEeecJ7YSHMO_mQ" name="Une seule porte ouverte à la fois"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_VCGSAP0bEeecJ7YSHMO_mQ" name="Maximum personne en franchissement du sas"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_OsWwkP0eEeecJ7YSHMO_mQ" name="Smartphone/Tablette"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_mjkhgP0XEeecJ7YSHMO_mQ" name="Ouverture d'une porte"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mjkhgP0XEeecJ7YSHMO_mQ" name="Franchissement d'un sas"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_zNt_QP0fEeecJ7YSHMO_mQ" name="" client="_OsWwkP0eEeecJ7YSHMO_mQ" supplier="_GF7cYP0VEeecJ7YSHMO_mQ"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_3eKgwP0fEeecJ7YSHMO_mQ" name="" client="_Gim0gP0ZEeecJ7YSHMO_mQ" supplier="_wh2vkP0XEeecJ7YSHMO_mQ"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_DqXX4P0gEeecJ7YSHMO_mQ" name="" client="_Hi1tAP0aEeecJ7YSHMO_mQ" supplier="_mjkhgP0XEeecJ7YSHMO_mQ"/>
-    <packagedElement xmi:type="uml:Abstraction" xmi:id="_IzOIEP0gEeecJ7YSHMO_mQ" name="" client="_Hi1tAP0aEeecJ7YSHMO_mQ" supplier="_4C7iEP0cEeecJ7YSHMO_mQ"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_L6v5sP0gEeecJ7YSHMO_mQ" name="" client="_VCGSAP0bEeecJ7YSHMO_mQ" supplier="_mjkhgP0XEeecJ7YSHMO_mQ"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_PSppoP0gEeecJ7YSHMO_mQ" name="" client="_Hi1tAP0aEeecJ7YSHMO_mQ" supplier="_cnoOEP0dEeecJ7YSHMO_mQ"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_4C7iEP0cEeecJ7YSHMO_mQ" name="Application android"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hGBjcP93EeeWn9upw3qyFA" name="Pupitre/"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GJ5WYP0VEeecJ7YSHMO_mQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GJ9AwP0VEeecJ7YSHMO_mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -84,21 +84,19 @@
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
   </uml:Model>
-  <Requirements:Requirement xmi:id="_ZyWHMP0WEeecJ7YSHMO_mQ" base_Class="_ZyFogP0WEeecJ7YSHMO_mQ" id="1" text="Les portes du SAS doivent êtres simple d'ulitlisation"/>
-  <Requirements:Requirement xmi:id="_mjqoIP0XEeecJ7YSHMO_mQ" base_Class="_mjkhgP0XEeecJ7YSHMO_mQ" id="1.1"/>
+  <Requirements:Requirement xmi:id="_ZyWHMP0WEeecJ7YSHMO_mQ" base_Class="_ZyFogP0WEeecJ7YSHMO_mQ" id="1" text="Rendre le système plus moderne et modulable, utilisant le protocole habituel d'un sas"/>
+  <Requirements:Requirement xmi:id="_mjqoIP0XEeecJ7YSHMO_mQ" base_Class="_mjkhgP0XEeecJ7YSHMO_mQ" id="1.1" text="Application du protocole déjà en place"/>
   <Requirements:Requirement xmi:id="_wh9dQP0XEeecJ7YSHMO_mQ" base_Class="_wh2vkP0XEeecJ7YSHMO_mQ" id="1.4" text="Permettre a un utilisateur de faire une requette d'ouverture de porte"/>
   <Blocks:Block xmi:id="_GisUEP0ZEeecJ7YSHMO_mQ" base_Class="_Gim0gP0ZEeecJ7YSHMO_mQ"/>
   <Requirements:Requirement xmi:id="_Hi7MkP0aEeecJ7YSHMO_mQ" base_Class="_Hi1tAP0aEeecJ7YSHMO_mQ" id="2.1" text="Toutes les autres portes doivent être fermé et verrouillé"/>
-  <Requirements:Requirement xmi:id="_VCMYoP0bEeecJ7YSHMO_mQ" base_Class="_VCGSAP0bEeecJ7YSHMO_mQ" id="2.2" text="Il ne faut qu'une seule personne dans le SAS"/>
-  <Requirements:Requirement xmi:id="_4DBBoP0cEeecJ7YSHMO_mQ" base_Class="_4C7iEP0cEeecJ7YSHMO_mQ" id="1.2" text="Application android Blootooth pour le technicien permettant de diagnostiquer le système et piloter les portes"/>
+  <Requirements:Requirement xmi:id="_VCMYoP0bEeecJ7YSHMO_mQ" base_Class="_VCGSAP0bEeecJ7YSHMO_mQ" id="2.2" text="Au maximum&#xD;&#xA; seule personne dans le SAS"/>
+  <Requirements:Requirement xmi:id="_4DBBoP0cEeecJ7YSHMO_mQ" base_Class="_4C7iEP0cEeecJ7YSHMO_mQ" id="1.2" text="Application android Bluetooth pour le technicien permettant de diagnostiquer le système et piloter les portes"/>
   <Requirements:Requirement xmi:id="_cntGkP0dEeecJ7YSHMO_mQ" base_Class="_cnoOEP0dEeecJ7YSHMO_mQ" id="1.3" text="Interface pour le technicien permettant de diagnostiquer le système et piloter les portes"/>
   <Blocks:Block xmi:id="_OsbpEP0eEeecJ7YSHMO_mQ" base_Class="_OsWwkP0eEeecJ7YSHMO_mQ"/>
   <Requirements:Satisfy xmi:id="_zOGZwP0fEeecJ7YSHMO_mQ" base_DirectedRelationship="_zNt_QP0fEeecJ7YSHMO_mQ" base_Abstraction="_zNt_QP0fEeecJ7YSHMO_mQ"/>
   <Requirements:Satisfy xmi:id="_3eWG8P0fEeecJ7YSHMO_mQ" base_DirectedRelationship="_3eKgwP0fEeecJ7YSHMO_mQ" base_Abstraction="_3eKgwP0fEeecJ7YSHMO_mQ"/>
-  <Requirements:Refine xmi:id="_9izjwP0fEeecJ7YSHMO_mQ"/>
-  <Requirements:Refine xmi:id="_B5WtQP0gEeecJ7YSHMO_mQ"/>
   <Requirements:Refine xmi:id="_Dqhv8P0gEeecJ7YSHMO_mQ" base_DirectedRelationship="_DqXX4P0gEeecJ7YSHMO_mQ" base_Abstraction="_DqXX4P0gEeecJ7YSHMO_mQ"/>
-  <Requirements:Refine xmi:id="_IzaVUP0gEeecJ7YSHMO_mQ" base_DirectedRelationship="_IzOIEP0gEeecJ7YSHMO_mQ" base_Abstraction="_IzOIEP0gEeecJ7YSHMO_mQ"/>
   <Requirements:Refine xmi:id="_L6640P0gEeecJ7YSHMO_mQ" base_DirectedRelationship="_L6v5sP0gEeecJ7YSHMO_mQ" base_Abstraction="_L6v5sP0gEeecJ7YSHMO_mQ"/>
   <Requirements:Refine xmi:id="_PS3sEP0gEeecJ7YSHMO_mQ" base_DirectedRelationship="_PSppoP0gEeecJ7YSHMO_mQ" base_Abstraction="_PSppoP0gEeecJ7YSHMO_mQ"/>
+  <Requirements:Requirement xmi:id="_hHKL4P93EeeWn9upw3qyFA" base_Class="_hGBjcP93EeeWn9upw3qyFA"/>
 </xmi:XMI>
