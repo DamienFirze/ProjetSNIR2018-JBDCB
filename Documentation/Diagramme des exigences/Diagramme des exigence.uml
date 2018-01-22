@@ -10,6 +10,7 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_ZyFogP0WEeecJ7YSHMO_mQ" name="Modernisation du système de gestion d'un sas">
       <nestedClassifier xmi:type="uml:Class" xmi:id="_cnoOEP0dEeecJ7YSHMO_mQ" name="Carte principale"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_wh2vkP0XEeecJ7YSHMO_mQ" name="Platine d'appel"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_hGBjcP93EeeWn9upw3qyFA" name="Pupitre /Pupitre Virtuel"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_Gim0gP0ZEeecJ7YSHMO_mQ" name="Boutton d'appel"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_Hi1tAP0aEeecJ7YSHMO_mQ" name="Une seule porte ouverte à la fois"/>
@@ -20,9 +21,10 @@
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_3eKgwP0fEeecJ7YSHMO_mQ" name="" client="_Gim0gP0ZEeecJ7YSHMO_mQ" supplier="_wh2vkP0XEeecJ7YSHMO_mQ"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_DqXX4P0gEeecJ7YSHMO_mQ" name="" client="_Hi1tAP0aEeecJ7YSHMO_mQ" supplier="_mjkhgP0XEeecJ7YSHMO_mQ"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_L6v5sP0gEeecJ7YSHMO_mQ" name="" client="_VCGSAP0bEeecJ7YSHMO_mQ" supplier="_mjkhgP0XEeecJ7YSHMO_mQ"/>
-    <packagedElement xmi:type="uml:Abstraction" xmi:id="_PSppoP0gEeecJ7YSHMO_mQ" name="" client="_Hi1tAP0aEeecJ7YSHMO_mQ" supplier="_cnoOEP0dEeecJ7YSHMO_mQ"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_4C7iEP0cEeecJ7YSHMO_mQ" name="Application android"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_hGBjcP93EeeWn9upw3qyFA" name="Pupitre/"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_gsxKYP-BEeec9J7NQUDfdw" name="" client="_OsWwkP0eEeecJ7YSHMO_mQ" supplier="_GF7cYP0VEeecJ7YSHMO_mQ"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_5y_LcP-CEeec9J7NQUDfdw" name="Pupitre materiel"/>
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_DDjX4P-DEeec9J7NQUDfdw" name="" client="_5y_LcP-CEeec9J7NQUDfdw" supplier="_hGBjcP93EeeWn9upw3qyFA"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_GJ5WYP0VEeecJ7YSHMO_mQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GJ9AwP0VEeecJ7YSHMO_mQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
@@ -97,6 +99,8 @@
   <Requirements:Satisfy xmi:id="_3eWG8P0fEeecJ7YSHMO_mQ" base_DirectedRelationship="_3eKgwP0fEeecJ7YSHMO_mQ" base_Abstraction="_3eKgwP0fEeecJ7YSHMO_mQ"/>
   <Requirements:Refine xmi:id="_Dqhv8P0gEeecJ7YSHMO_mQ" base_DirectedRelationship="_DqXX4P0gEeecJ7YSHMO_mQ" base_Abstraction="_DqXX4P0gEeecJ7YSHMO_mQ"/>
   <Requirements:Refine xmi:id="_L6640P0gEeecJ7YSHMO_mQ" base_DirectedRelationship="_L6v5sP0gEeecJ7YSHMO_mQ" base_Abstraction="_L6v5sP0gEeecJ7YSHMO_mQ"/>
-  <Requirements:Refine xmi:id="_PS3sEP0gEeecJ7YSHMO_mQ" base_DirectedRelationship="_PSppoP0gEeecJ7YSHMO_mQ" base_Abstraction="_PSppoP0gEeecJ7YSHMO_mQ"/>
-  <Requirements:Requirement xmi:id="_hHKL4P93EeeWn9upw3qyFA" base_Class="_hGBjcP93EeeWn9upw3qyFA"/>
+  <Requirements:Requirement xmi:id="_hHKL4P93EeeWn9upw3qyFA" base_Class="_hGBjcP93EeeWn9upw3qyFA" id="1.5" text="Sert à autoriser ou refuser le franchissement d'un sas"/>
+  <Requirements:Satisfy xmi:id="_gtF6gP-BEeec9J7NQUDfdw" base_DirectedRelationship="_gsxKYP-BEeec9J7NQUDfdw" base_Abstraction="_gsxKYP-BEeec9J7NQUDfdw"/>
+  <Blocks:Block xmi:id="_5zHHQP-CEeec9J7NQUDfdw" base_Class="_5y_LcP-CEeec9J7NQUDfdw"/>
+  <Requirements:Satisfy xmi:id="_DD2S0P-DEeec9J7NQUDfdw" base_DirectedRelationship="_DDjX4P-DEeec9J7NQUDfdw" base_Abstraction="_DDjX4P-DEeec9J7NQUDfdw"/>
 </xmi:XMI>
