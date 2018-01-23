@@ -1,2 +1,11 @@
 Joe : Mémorisation des appels ? (p13 du Cahier des charges complet 1-1)
 
+
+
+Bastien: Est ce qu il y a un nombre de portes maximum?
+Est ce qu il faut choisir le mode de fonctionnemment a la config ou est ce qu on peut le changer quand on veut?
+Qu elle sont les option liée au monde de fonctionnement? (Auto, manuel, semi auto)
+
+Cedric: Securite du bluetooth? (mots de passe, adresse MAC)
+
+Damien: Est ce qu ils veulent un mode diagnostique?
