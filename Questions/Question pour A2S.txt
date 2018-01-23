@@ -9,3 +9,5 @@ Qu elle sont les option liée au monde de fonctionnement? (Auto, manuel, semi aut
 Cedric: Securite du bluetooth? (mots de passe, adresse MAC)
 
 Damien: Est ce qu ils veulent un mode diagnostique?
+Combiens de SAS pourras gerer une seule carte principal?
+
